@@ -6,13 +6,13 @@ import skola.uni.consts.ClassRoom;
 
 
 public class Reservation {
-    private String name;
-    private LocalDate startDate;
-    private LocalTime startTime;
-    private LocalDate endDate;
-    private LocalTime endTime;
-    private ClassEnum status;
-    private ClassRoom room;
+    public String name;
+    public LocalDate startDate;
+    public LocalTime startTime;
+    public LocalDate endDate;
+    public LocalTime endTime;
+    public ClassEnum status;
+    public ClassRoom room;
 
     public Reservation(String name, LocalDate startDate, LocalTime startTime, LocalDate endDate, LocalTime endTime, ClassEnum status, ClassRoom room) {
         this.name = name;

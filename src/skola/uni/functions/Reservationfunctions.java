@@ -28,6 +28,7 @@ public class Reservationfunctions {
         mainDataStructure.printReservation(name);
     }
 
+
     /*
     public void updateReservation(String newName, LocalDate newStartDate, LocalTime newStartTime, LocalDate newEndDate, LocalTime newEndTime, ClassEnum newStatus, ClassRoom newRoom) {
 

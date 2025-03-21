@@ -1,5 +1,4 @@
 import skola.uni.display.SystemScreen;
-//import skola.uni.input.ReservationInput;
 import skola.uni.conditions.MainCondition;
 
 import java.util.*;

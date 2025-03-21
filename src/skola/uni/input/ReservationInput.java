@@ -96,7 +96,9 @@ public class ReservationInput {
     }
 
     public void printAllInput() {
+
         reservationfunctions.printReservations();
+
     }
 
 }
