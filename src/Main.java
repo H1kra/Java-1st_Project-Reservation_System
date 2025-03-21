@@ -1,5 +1,5 @@
-import skola.uni.input.ReservationInput;
 import skola.uni.display.SystemScreen;
+import skola.uni.input.ReservationInput;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class Main {
                 resIn.createInput();
             }
             else if ("2".equalsIgnoreCase(action)) {
-            //    resIn.updateInput();
+                //    resIn.updateInput();
                 System.out.println("Work in progress. Try again later.");
 
             }
