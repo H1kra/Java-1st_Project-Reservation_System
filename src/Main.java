@@ -1,20 +1,24 @@
 import skola.uni.display.SystemScreen;
-import skola.uni.input.ReservationInput;
+//import skola.uni.input.ReservationInput;
+import skola.uni.conditions.MainCondition;
 
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ReservationInput resIn = new ReservationInput();
-        Scanner sc = new Scanner(System.in);
+        //ReservationInput resIn = new ReservationInput();
+        MainCondition mainCon = new MainCondition();
+        //Scanner sc = new Scanner(System.in);
 
-        String action;
+        //String action;
 
         SystemScreen.displayReservationSystem();
 
+        mainCon.actionCondition();
+
+        /*
         while (true) {
             SystemScreen.displayReservationOption();
-
             action = sc.nextLine();
 
             if ("1".equalsIgnoreCase(action)) {
@@ -55,6 +59,8 @@ public class Main {
             }
         }
         sc.close();
+         */
+
     }
 }
 //------------------------------------------------------------------------------------------------------------------------
